@@ -26,12 +26,6 @@
   text-decoration: none;
 }
 
-/*Fazer uma pequena animação para desktop*/
-.categorias_cards:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-}
-
 @media screen and (min-width: 768px) {
   .categories {
     flex-direction: row;
