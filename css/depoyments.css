@@ -1,0 +1,43 @@
+.depoyments{
+    width: 312px;
+    margin: 0 auto;
+}
+
+.depoyments-container{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.depoyments-container article p{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.depoyments-container footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.depoyments-container footer img{
+    width: 86px;
+    height: 86px;
+}
+
+.depoyments-container footer .profile-content h4{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: var(--title-weight);
+    margin: 0 0 8px;
+}
+
+.depoyments-container footer .profile-content .rating .star{
+    font-size: 32px;
+    color: var(--secondary-color);
+}
+
+@media screen and (min-width:1024px) {
+    .depoyments-container{
+        flex-direction: row;
+    }
+}
