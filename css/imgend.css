@@ -1,0 +1,20 @@
+.img-end .img-final .img-footer{
+    background: url(../img/paisagem_footer-mobile.png);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px){
+    .img-end .img-final .img-footer{
+        background: url(../img/paisagem_footer-tablet.png);
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .img-end .img-final .img-footer{
+        background: url(../img/paisagem_footer-desktop.png);
+        background-size: cover;
+    }
+}
