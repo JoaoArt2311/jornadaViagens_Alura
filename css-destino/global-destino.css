@@ -1,0 +1,96 @@
+/*Variaveis das Cores*/
+:root {
+  --background-primary-color: #ffff;
+  --background-secondary-color: #f5f5f5;
+  --background-tertiary-color: #000000;
+
+  --primery-color: #8f0101;
+  --secondary-color: #b81515;
+
+  --text-primary-color: #222222;
+  --text-secondary-color: #ffff;
+
+  --title-weight: 700;
+  --text-weight: 400;
+  --menu-text-weight: 500;
+}
+
+/*Fonts*/
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fontes/Montserrat-VariableFont_wght.ttf);
+  font-style: normal;
+  font-display: swap;
+}
+
+/* CSS RESET */
+body,
+img,
+h1,
+p,
+fieldset,
+legend,
+label,
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+  color: var(--text-primary-color);
+}
+
+.content-title{
+  font-size: 28px;
+  font-weight: var(--text-weight);
+}
+
+.content-text{
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
+.section-title h2 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  text-align: center;
+}
+
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px auto 32px;
+}
+
+.button {
+  width: 280px;
+  height: 64px;
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
+  font-size: 20px;
+  background-color: var(--secondary-color);
+  border-radius: 16px;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title h2 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .button:hover {
+    background-color: var(--primery-color);
+  }
+}
