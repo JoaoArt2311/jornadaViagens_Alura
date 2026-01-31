@@ -1,0 +1,38 @@
+.hero-img-destino{
+  height: 400px;
+  width: 100%;
+  background-image: url(../img-destino/hero-img-destino_mobile.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-destino h2 {
+  padding: 88px 24px;
+  margin: 0px;
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-img-destino {
+    height: 620px;
+    background-image: url(../img/foto-bonita-tablet.jpg);
+    background-size: cover;
+  }
+  .hero-destino h2 {
+  padding: 88px 60px;
+  font-size: 32px;
+}
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-img-destino {
+    background-image: url(../img/foto-bonita-desktop.jpg);
+  }
+  .hero-destino h2{
+    padding: 88px 200px;
+  }
+}
